@@ -1,0 +1,4 @@
+use crontab -e on your linux command line to access the file that will allow you to schedule periodic execution of scripts.
+
+
+(*/10* * * * *  /home/jacob/sort.sh)
