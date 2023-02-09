@@ -3,6 +3,7 @@
 #shows debug info
 set -x
 #This is not secure and would need to be ran through another file(maybe a temp file ?)
+#This needs to utilize something like hashicorp vault to access the db username and password in a secure manner without exposing the credentials
 PASS='*******'
 USER='root'
 
